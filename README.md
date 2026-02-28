@@ -14,7 +14,7 @@ A reusable authentication and authorization framework for Go.
 ## Installation
 
 ```bash
-go get github.com/goauth
+go get github.com/mrgofurov/goauth
 ```
 
 ## Quick Start
@@ -27,9 +27,9 @@ package main
 import (
     "net/http"
     
-    "github.com/goauth"
-    "github.com/goauth/middleware"
-    "github.com/goauth/providers"
+    "github.com/mrgofurov/goauth"
+    "github.com/mrgofurov/goauth/middleware"
+    "github.com/mrgofurov/goauth/providers"
 )
 
 func main() {
@@ -82,10 +82,10 @@ package main
 
 import (
     "github.com/gofiber/fiber/v2"
-    "github.com/goauth"
-    "github.com/goauth/adapters"
-    "github.com/goauth/middleware"
-    "github.com/goauth/providers"
+    "github.com/mrgofurov/goauth"
+    "github.com/mrgofurov/goauth/adapters"
+    "github.com/mrgofurov/goauth/middleware"
+    "github.com/mrgofurov/goauth/providers"
 )
 
 func main() {
@@ -122,10 +122,10 @@ package main
 
 import (
     "github.com/gin-gonic/gin"
-    "github.com/goauth"
-    "github.com/goauth/adapters"
-    "github.com/goauth/middleware"
-    "github.com/goauth/providers"
+    "github.com/mrgofurov/goauth"
+    "github.com/mrgofurov/goauth/adapters"
+    "github.com/mrgofurov/goauth/middleware"
+    "github.com/mrgofurov/goauth/providers"
 )
 
 func main() {
